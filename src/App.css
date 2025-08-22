@@ -1,0 +1,54 @@
+.skills-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.skills-heading {
+  font-size: 38px;
+  margin-bottom: 25px;
+ 
+  color: aqua;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon {
+  font-size: 135px;
+  margin-bottom: 8px;
+  color: rgb(165, 85, 240);
+  margin-left: 40px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 8s linear infinite;
+}
+
+.skill-box p {
+  margin: 0;
+  font-weight: 500;
+}
+.sub{
+  color: azure;
+}
+.col a{
+  text-decoration: none;
+}
+*{
+  font-family: serif;
+}
