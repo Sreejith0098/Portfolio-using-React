@@ -1,11 +1,11 @@
 
 import { Link } from "react-router-dom";
-
+import profile from '../assets/profile.png'
 const HeroSection = () => {
   
   return (
     <>
-      <div style={{ height: "80vh" }} className="container row ms-5 me-5 mt-5" >
+      <div style={{ height: "60vh",marginTop:'130px' }} className="container row ms-5 me-5 " >
         {/* text section */}
         <div
           style={{ marginTop: "130px", fontFamily: "serif" }}
@@ -39,7 +39,7 @@ const HeroSection = () => {
         <div className="col-lg-6 "   >
           <img
             className="img-fluid"
-            src="https://img.freepik.com/premium-vector/asian-men-avatar_7814-345.jpg"
+            src={profile}
             alt=""
           />
         </div>

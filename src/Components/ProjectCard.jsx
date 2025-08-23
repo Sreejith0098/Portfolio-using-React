@@ -6,12 +6,14 @@ import "aos/dist/aos.css";
 import media from '../assets/mediaPlayer.png'
 import RecipeApp from '../assets/RecipeApp.png'
 import Ecart from '../assets/E-cart.png'
-
+import nexgen from '../assets/nexgen.png'
+import zomato from '../assets/zomato.png'
+import trends from '../assets/trends.png'
 const ProjectCard = () => {
     useEffect(() => {
         Aos.init({
-          duration: 2000, // animation speed
-          once: false     // 👈 repeat animation on every scroll
+          duration: 2000, 
+          once: false     
         });
       }, []);
   return (
@@ -80,20 +82,19 @@ const ProjectCard = () => {
         </div>
       </div>
       {/* 2nd row */}
-      <div className="row" data-aos="fade-left"  >
+      <div className="row" data-aos="fade-right"  >
         {/* first col */}
         <div className="col">
         <a href="">
           <Card.Root maxW="sm" overflow="hidden">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src={nexgen}
               alt="Green double couch with wooden legs"
             />
             <Card.Body gap="2" className="text-center">
-              <Card.Title>Living room Sofa</Card.Title>
+              <Card.Title>Gamming Magazine Website</Card.Title>
               <Card.Description>
-                This sofa is perfect for modern tropical spaces, baroque
-                inspired spaces.
+               Gaming magazine website created using html,css,bootstrap,Gsap for animation
               </Card.Description>
             </Card.Body>
             <Card.Footer gap="2">
@@ -106,14 +107,13 @@ const ProjectCard = () => {
         <a href="">
           <Card.Root maxW="sm" overflow="hidden">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src={zomato}
               alt="Green double couch with wooden legs"
             />
             <Card.Body gap="2" className="text-center">
-              <Card.Title>Living room Sofa</Card.Title>
+              <Card.Title>Zomato Clone</Card.Title>
               <Card.Description>
-                This sofa is perfect for modern tropical spaces, baroque
-                inspired spaces.
+                Zomato clone using <br /> html,css,bootstrap
               </Card.Description>
             </Card.Body>
             <Card.Footer gap="2">
@@ -126,14 +126,13 @@ const ProjectCard = () => {
         <a href="">
           <Card.Root maxW="sm" overflow="hidden">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src={trends}
               alt="Green double couch with wooden legs"
             />
             <Card.Body gap="2" className="text-center">
-              <Card.Title>Living room Sofa</Card.Title>
+              <Card.Title>Trends Clone</Card.Title>
               <Card.Description>
-                This sofa is perfect for modern tropical spaces, baroque
-                inspired spaces.
+               Trends clone using <br /> html,css,bootstrap
               </Card.Description>
             </Card.Body>
             <Card.Footer gap="2">
