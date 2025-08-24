@@ -5,7 +5,7 @@ const HeroSection = () => {
   
   return (
     <>
-      <div style={{ height: "60vh",marginTop:'130px' }} className="container row ms-5 me-5 " >
+      <div style={{ height: "88vh",paddingTop:'180px' }} className="container row ms-5 me-5 " >
         {/* text section */}
         <div
           style={{ marginTop: "130px", fontFamily: "serif" }}
@@ -30,11 +30,27 @@ const HeroSection = () => {
           <a
             className="btn ms-3 mt-3 "
             style={{ backgroundColor: "#6f42c1",color:'aqua' }}
-            href=""
+            href="#contact"
           >
             {" "}
             Contack me
           </a>
+          <div className="mt-3 d-flex ">
+            <div  >
+                <a style={{textDecoration:'none', color:'aqua' }} href="https://www.linkedin.com/in/sreejith-r-57707725b/">
+                <i  class="fa-brands fa-linkedin fs-3  "></i>
+                </a>
+            </div>
+
+            <div className="ms-2"  >
+                <a style={{textDecoration:'none',color:'aqua'}} href="">
+                <i class="fa-brands fa-github fs-3"></i> 
+
+                </a>
+            </div>
+         
+          </div>
+         
         </div>
         <div className="col-lg-6 "   >
           <img

@@ -9,12 +9,12 @@ import { SiTailwindcss } from "react-icons/si"
 function Skills() {
      useEffect(() => {
             Aos.init({
-              duration: 2000, // animation speed
-              once: false     // 👈 repeat animation on every scroll
+              duration: 2000, 
+              once: false     
             });
           }, []);
   return (
-    <section className="skills-section " >
+    <section id="skills" className="skills-section " >
       <h2 className="skills-heading" data-aos="fade-right" >My Skills</h2>
 
       <div className="skills-row">

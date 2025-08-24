@@ -17,7 +17,7 @@ const ProjectCard = () => {
         });
       }, []);
   return (
-    <div className="container projects  "   >
+    <div className="container projects  " id="projects"  >
         <h1 style={{color:'aqua'}} className="text-center mt-3 mb-5" data-aos="fade-right" >My Latest Projects</h1>
       <div className="row mb-4  " data-aos="fade-right" >
         {/* first col */}
