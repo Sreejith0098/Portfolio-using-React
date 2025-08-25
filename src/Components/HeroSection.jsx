@@ -9,7 +9,7 @@ const HeroSection = () => {
         {/* text section */}
         <div
           style={{ marginTop: "130px", fontFamily: "serif" }}
-          className="col-lg-6 text-light "
+          className="col-lg-6 pe-3 text-light "
         >
           Hello Everyone!
           <h1>
@@ -38,13 +38,13 @@ const HeroSection = () => {
           <div className="mt-3 d-flex ">
             <div  >
                 <a style={{textDecoration:'none', color:'aqua' }} href="https://www.linkedin.com/in/sreejith-r-57707725b/">
-                <i  class="fa-brands fa-linkedin fs-3  "></i>
+                <i  className="fa-brands fa-linkedin fs-3  "></i>
                 </a>
             </div>
 
             <div className="ms-2"  >
                 <a style={{textDecoration:'none',color:'aqua'}} href="">
-                <i class="fa-brands fa-github fs-3"></i> 
+                <i className="fa-brands fa-github fs-3"></i> 
 
                 </a>
             </div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
           </div>
          
         </div>
-        <div className="col-lg-6 "   >
+        <div className="col-lg-6 mb-4 "   >
           <img
             className="img-fluid"
             src={profile}

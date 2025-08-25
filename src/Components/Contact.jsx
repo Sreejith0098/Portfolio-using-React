@@ -1,10 +1,15 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Box, Heading, Text, VStack, Input, Textarea, Button, HStack, IconButton, Link } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Contact = () => {
+    const[data,setData] = useState({
+        name:"",
+        email:'',
+        message:""
+    })
     useEffect(() => {
             Aos.init({
               duration: 2000, 
@@ -19,8 +24,8 @@ const Contact = () => {
 
         {/* Contact Form */}
         <VStack spacing={4} w="100%" data-aos="fade-right"    >
-          <Input className='bg-dark' placeholder="Your Name" bg="white" color="black" />
-          <Input className='bg-dark' placeholder="Your Email" bg="white" color="black" />
+          <Input onChange={(e)=>setData({...data,name:e.target.value})} className='bg-dark' placeholder="Your Name" bg="white" color="black" />
+          <Input  className='bg-dark' placeholder="Your Email" bg="white" color="black" />
           <Textarea className='bg-dark' placeholder="Your Message" bg="white" color="black" rows={5} />
           <Button className='btn' style={{ backgroundColor: "aqua"}} colorScheme="teal" size="lg" w="100%">Send Message</Button>
         </VStack>
