@@ -1,6 +1,7 @@
 
 import { Link } from "react-router-dom";
 import profile from '../assets/profile.png'
+import '../App.css'
 const HeroSection = () => {
   
   return (
@@ -52,12 +53,14 @@ const HeroSection = () => {
           </div>
          
         </div>
-        <div className="col-lg-6 mb-4 "   >
-          <img
-            className="img-fluid"
+        <div style={{paddingLeft:'66px'}} className="col-lg-6 mb-4    "   >
+            <div style={{borderRadius:'50%',height:'450px',width:'500px',borderColor:'aqua',borderStyle:'double', border:'1px solid aqua'}} className=" p-3 glow-border ">
+          <img 
+            className="img-fluid mt-5"
             src={profile}
             alt=""
           />
+          </div>
         </div>
       </div>
     </>

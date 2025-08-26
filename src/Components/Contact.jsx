@@ -10,6 +10,9 @@ const Contact = () => {
         email:'',
         message:""
     })
+    const onSubmit=()=>{
+        console.log(data)
+    }
     useEffect(() => {
             Aos.init({
               duration: 2000, 
@@ -24,10 +27,10 @@ const Contact = () => {
 
         {/* Contact Form */}
         <VStack spacing={4} w="100%" data-aos="fade-right"    >
-          <Input onChange={(e)=>setData({...data,name:e.target.value})} className='bg-dark' placeholder="Your Name" bg="white" color="black" />
-          <Input  className='bg-dark' placeholder="Your Email" bg="white" color="black" />
-          <Textarea className='bg-dark' placeholder="Your Message" bg="white" color="black" rows={5} />
-          <Button className='btn' style={{ backgroundColor: "aqua"}} colorScheme="teal" size="lg" w="100%">Send Message</Button>
+          <Input onChange={(e)=>setData({...data,name:e.target.value})} className='bg-dark text-light' placeholder="Your Name" bg="white" color="black" />
+          <Input onChange={(e)=>setData({...data,email:e.target.value})}  className='bg-dark text-light' placeholder="Your Email" bg="white" color="black" />
+          <Textarea onChange={(e)=>setData({...data,message:e.target.value})} className='bg-dark text-light' placeholder="Your Message" bg="white" color="black" rows={5} />
+          <Button onClick={onSubmit} className='btn' style={{ backgroundColor: "aqua"}} colorScheme="teal" size="lg" w="100%">Send Message</Button>
         </VStack>
 
         

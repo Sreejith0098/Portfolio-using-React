@@ -52,3 +52,20 @@
 *{
   font-family: serif;
 }
+
+
+
+
+.glow-border{
+  animation: glow 2s infinite alternate;
+}
+@keyframes glow {
+  from {
+    box-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 10px #0ff;
+    border-color: #00f;
+  }
+  to {
+    box-shadow: 0 0 10px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+    border-color: #0ff;
+  }
+}

@@ -23,9 +23,9 @@ function Skills() {
   }, []);
   return (
     <section id="skills" className="skills-section ">
-      <h2 className="skills-heading" data-aos="fade-right">
+      <h1  className="skills-heading fs-1" data-aos="fade-right">
         My Skills
-      </h2>
+      </h1>
 
       <div className="skills-row">
         <div className="skill-box" data-aos="fade-right">

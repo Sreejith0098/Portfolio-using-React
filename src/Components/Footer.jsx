@@ -1,3 +1,4 @@
+import { Flex } from "@chakra-ui/react";
 import React from "react";
 
 const Footer = () => {
@@ -70,7 +71,7 @@ const Footer = () => {
             {/* Social */}
             <div className="col-md-4 ">
               <h6 className="mb-3">Connect with me</h6>
-              <div className="d-flex gap-3">
+              <div style={{display:"flex", flexDirection:'column'}} className="">
                 <a
                   style={{ textDecoration: "none" }}
                   href="https://github.com/yourusername"
@@ -105,7 +106,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p style={{ color: "aqua" }} className="text-center small">
-            &copy; Your Name. All rights reserved.
+            &copy;  All rights reserved.
           </p>
         </div>
       </footer>
