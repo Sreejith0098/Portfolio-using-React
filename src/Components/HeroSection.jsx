@@ -25,7 +25,7 @@ const HeroSection = () => {
             JavaScript, and modern frameworks like React and Vue.js, as well as
             back-end technologies such as Node.js and Express.
           </p>
-          <Link style={{ backgroundColor: "#6f42c1",color:'aqua' }} className="btn mt-3">
+          <Link to={'/resume'} style={{ backgroundColor: "#6f42c1",color:'aqua' }} className="btn mt-3">
             View resume
           </Link>
           <a
