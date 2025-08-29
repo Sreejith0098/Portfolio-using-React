@@ -69,3 +69,129 @@
     border-color: #0ff;
   }
 }
+
+
+
+/* responsive */
+/* Mobile devices (up to 576px) */
+@media (max-width: 576px) {
+  .hero-responsive {
+    height: auto !important;
+    padding-top: 80px !important;
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+  
+  .hero-text-section {
+    margin-top: 20px !important;
+    text-align: center;
+    padding-right: 0 !important;
+  }
+  
+  .hero-image-section {
+    padding-left: 0 !important;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .hero-image-container {
+    width: 280px !important;
+    height: 280px !important;
+    margin: 0 auto;
+  }
+  
+  .hero-image-container img {
+    margin-top: 1rem !important;
+  }
+}
+
+/* Tablet devices (577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-responsive {
+    height: auto !important;
+    padding-top: 100px !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+  
+  .hero-text-section {
+    margin-top: 40px !important;
+    text-align: center;
+  }
+  
+  .hero-image-section {
+    padding-left: 20px !important;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .hero-image-container {
+    width: 350px !important;
+    height: 350px !important;
+    margin: 0 auto;
+  }
+  
+  .hero-image-container img {
+    margin-top: 2rem !important;
+  }
+}
+
+/* Medium devices (769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .hero-responsive {
+    padding-top: 120px !important;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
+  }
+  
+  .hero-text-section {
+    margin-top: 80px !important;
+  }
+  
+  .hero-image-section {
+    padding-left: 30px !important;
+  }
+  
+  .hero-image-container {
+    width: 380px !important;
+    height: 380px !important;
+  }
+}
+
+/* Large devices (993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-responsive {
+    margin-left: 4rem !important;
+    margin-right: 4rem !important;
+  }
+  
+  .hero-image-section {
+    padding-left: 40px !important;
+  }
+  
+  .hero-image-container {
+    width: 420px !important;
+    height: 420px !important;
+  }
+}
+
+/* Extra small height devices */
+@media (max-height: 600px) {
+  .hero-responsive {
+    height: auto !important;
+    padding-top: 60px !important;
+  }
+  
+  .hero-text-section {
+    margin-top: 20px !important;
+  }
+  
+  .hero-image-container {
+    height: 250px !important;
+    width: 280px !important;
+  }
+  
+  .hero-image-container img {
+    margin-top: 0.5rem !important;
+  }
+}

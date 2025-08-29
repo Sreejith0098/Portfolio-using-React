@@ -21,13 +21,13 @@ function Skills() {
       once: false,
     });
   }, []);
+
   return (
-    <section id="skills" className="skills-section ">
-      <h1  className="skills-heading fs-1" data-aos="fade-right">
+    <section id="skills" className="skills-section">
+      <h1 className="skills-heading fs-1" data-aos="fade-right">
         My Skills
       </h1>
-
-      <div className="skills-row">
+      <div className="skills-row d-flex flex-wrap justify-content-center">
         <div className="skill-box" data-aos="fade-right">
           <FaReact className="skill-icon spin" />
           <p className="sub">React</p>
@@ -45,8 +45,7 @@ function Skills() {
           <p className="sub">JavaScript</p>
         </div>
       </div>
-
-      <div className="skills-row">
+      <div className="skills-row d-flex flex-wrap justify-content-center">
         <div className="skill-box" data-aos="fade-right">
           <FaBootstrap className="skill-icon spin" />
           <p className="sub">Bootstrap</p>
