@@ -89,8 +89,8 @@ const ProjectCard = () => {
               <Card.Body gap="2" className="text-center">
                 <Card.Title>Gamming Magazine Website</Card.Title>
                 <Card.Description>
-                  Gaming magazine website created using html,css,bootstrap,Gsap
-                  for animation
+                created using html,css,bootstrap,Gsap
+                  
                 </Card.Description>
               </Card.Body>
               <Card.Footer gap="2"></Card.Footer>
@@ -105,7 +105,7 @@ const ProjectCard = () => {
               <Card.Body gap="2" className="text-center">
                 <Card.Title>Zomato Clone</Card.Title>
                 <Card.Description>
-                  Zomato clone using <br /> html,css,bootstrap
+                  Zomato clone using html,css,bootstrap
                 </Card.Description>
               </Card.Body>
               <Card.Footer gap="2"></Card.Footer>
@@ -120,7 +120,7 @@ const ProjectCard = () => {
               <Card.Body gap="2" className="text-center">
                 <Card.Title>Trends Clone</Card.Title>
                 <Card.Description>
-                  Trends clone using <br /> html,css,bootstrap
+                  Trends clone using html,css,bootstrap
                 </Card.Description>
               </Card.Body>
               <Card.Footer gap="2"></Card.Footer>
