@@ -27,7 +27,7 @@ const Header = () => {
           <div
             className="offcanvas offcanvas-end container"
             style={{ backgroundColor: "#712cf9", width: "300px" }}
-            tabindex="-1"
+            tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
           >
@@ -52,7 +52,7 @@ const Header = () => {
                 className="navbar-nav justify-content-end flex-grow-1 pe-3"
               >
                 <li className="nav-item">
-                  <a style={{ color: "aqua",textDecoration:'none' }} classNa="nav-link" href="#skills">
+                  <a style={{ color: "aqua",textDecoration:'none' }} className="nav-link" href="#skills">
                     Skills
                   </a>
                 </li>
