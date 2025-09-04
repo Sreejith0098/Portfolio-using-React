@@ -22,7 +22,10 @@ const Header = () => {
             aria-controls="offcanvasNavbar"
             aria-label="Toggle navigation"
           >
-            <span style={{ color: "aqua" }} className="navbar-toggler-icon"></span>
+            <span
+              style={{ color: "aqua" }}
+              className="navbar-toggler-icon"
+            ></span>
           </button>
           <div
             className="offcanvas offcanvas-end container"
@@ -52,7 +55,11 @@ const Header = () => {
                 className="navbar-nav justify-content-end flex-grow-1 pe-3"
               >
                 <li className="nav-item">
-                  <a style={{ color: "aqua",textDecoration:'none' }} className="nav-link" href="#skills">
+                  <a
+                    style={{ color: "aqua", textDecoration: "none" }}
+                    className="nav-link"
+                    href="#skills"
+                  >
                     Skills
                   </a>
                 </li>

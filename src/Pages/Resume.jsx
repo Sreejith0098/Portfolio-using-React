@@ -2,9 +2,8 @@ import React from "react";
 
 const Resume = () => {
   return (
-    
-      <div style={{height:'100vh'}} className="container   ">
-        <div style={{paddingTop:"250px"}} className="section">
+    <div style={{ height: "100vh" }} className="container   ">
+      <div style={{ paddingTop: "250px" }} className="section">
         <h1 style={{ color: "aqua" }} className="text-center pt-5">
           View and download my resume
         </h1>

@@ -1,23 +1,22 @@
-import React from 'react'
-import Header from '../Components/Header'
-import HeroSection from '../Components/HeroSection'
-import Skills from '../Components/Skills'
-import Projects from '../Components/Projects'
-import Footer from '../Components/Footer'
-import Contact from '../Components/Contact'
+import React from "react";
+import Header from "../Components/Header";
+import HeroSection from "../Components/HeroSection";
+import Skills from "../Components/Skills";
+import Projects from "../Components/Projects";
+import Footer from "../Components/Footer";
+import Contact from "../Components/Contact";
 
 const Home = () => {
   return (
     <div>
-<Header />
-<HeroSection/>
-<Skills/>
-<Projects/>
-<Contact/>
-<Footer/>
-
+      <Header />
+      <HeroSection />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

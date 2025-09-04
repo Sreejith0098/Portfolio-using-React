@@ -20,24 +20,7 @@ const Footer = () => {
             <div className="col-md-4">
               <h6 className="mb-3">Quick Links</h6>
               <ul className="list-unstyled">
-                <li>
-                  <a
-                    style={{ textDecoration: "none", color: "aqua" }}
-                    href="#home"
-                    className="footer-link"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    style={{ textDecoration: "none", color: "aqua" }}
-                    href="#about"
-                    className="footer-link"
-                  >
-                    About
-                  </a>
-                </li>
+               
                 <li>
                   <a
                     style={{ textDecoration: "none", color: "aqua" }}
@@ -71,10 +54,13 @@ const Footer = () => {
             {/* Social */}
             <div className="col-md-4 ">
               <h6 className="mb-3">Connect with me</h6>
-              <div style={{display:"flex", flexDirection:'column'}} className="">
+              <div
+                style={{ display: "flex", flexDirection: "column" }}
+                className=""
+              >
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://github.com/yourusername"
+                  href="https://github.com/Sreejith0098"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -87,7 +73,7 @@ const Footer = () => {
                 </a>
                 <a
                   style={{ textDecoration: "none" }}
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/sreejith-r-57707725b/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -106,7 +92,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p style={{ color: "aqua" }} className="text-center small">
-            &copy;  All rights reserved.
+            &copy; All rights reserved.
           </p>
         </div>
       </footer>

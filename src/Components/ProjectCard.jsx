@@ -17,7 +17,7 @@ const ProjectCard = () => {
       once: false,
     });
   }, []);
-  
+
   return (
     <div className="container-fluid projects" id="projects">
       <div className="container">
@@ -28,15 +28,15 @@ const ProjectCard = () => {
         >
           My Latest Projects
         </h1>
-        
+
         <div className="row mb-4" data-aos="fade-right">
           {/* first col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/Sreejith0098/Media-Player-.git">
+            <a style={{textDecoration:'none'}} href="https://github.com/Sreejith0098/Media-Player-.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image 
-                  src={media} 
-                  alt="Media Player App" 
+                <Image
+                  src={media}
+                  alt="Media Player App"
                   className="img-fluid"
                 />
                 <Card.Body gap="2" className="text-center">
@@ -53,34 +53,26 @@ const ProjectCard = () => {
 
           {/* second col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/Sreejith0098/RecipeApp-using-React.git">
+            <a style={{textDecoration:'none'}}  href="https://github.com/Sreejith0098/RecipeApp-using-React.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image
-                  src={RecipeApp}
-                  alt="Recipe App"
-                  className="img-fluid"
-                />
+                <Image src={RecipeApp} alt="Recipe App" className="img-fluid" />
                 <Card.Body gap="2" className="text-center">
                   <Card.Title>Recipe App</Card.Title>
                   <Card.Description>
-                    Recipe app using html,css,JavaScript,React,Bootstrap,Api fetch
-                    using async await
+                    Recipe app using html,css,JavaScript,React,Bootstrap,Api
+                    fetch using async await
                   </Card.Description>
                 </Card.Body>
                 <Card.Footer gap="2"></Card.Footer>
               </Card.Root>
             </a>
           </div>
-          
+
           {/* third col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/Sreejith0098/ReduxCart.git">
+            <a  style={{textDecoration:'none'}} href="https://github.com/Sreejith0098/ReduxCart.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image 
-                  src={Ecart} 
-                  alt="E-cart App" 
-                  className="img-fluid"
-                />
+                <Image src={Ecart} alt="E-cart App" className="img-fluid" />
                 <Card.Body gap="2" className="text-center">
                   <Card.Title>E-cart</Card.Title>
                   <Card.Description>
@@ -93,16 +85,16 @@ const ProjectCard = () => {
             </a>
           </div>
         </div>
-        
+
         {/* 2nd row */}
         <div className="row" data-aos="fade-right">
           {/* first col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/bibinb603/NEXGEN.git">
+            <a style={{textDecoration:'none'}} href="https://github.com/bibinb603/NEXGEN.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image 
-                  src={nexgen} 
-                  alt="Gaming Magazine Website" 
+                <Image
+                  src={nexgen}
+                  alt="Gaming Magazine Website"
                   className="img-fluid"
                 />
                 <Card.Body gap="2" className="text-center">
@@ -115,16 +107,12 @@ const ProjectCard = () => {
               </Card.Root>
             </a>
           </div>
-          
+
           {/* second col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/Sreejith0098/zomato-clone.git">
+            <a style={{textDecoration:'none'}} href="https://github.com/Sreejith0098/zomato-clone.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image 
-                  src={zomato} 
-                  alt="Zomato Clone" 
-                  className="img-fluid"
-                />
+                <Image src={zomato} alt="Zomato Clone" className="img-fluid" />
                 <Card.Body gap="2" className="text-center">
                   <Card.Title>Zomato Clone</Card.Title>
                   <Card.Description>
@@ -135,16 +123,12 @@ const ProjectCard = () => {
               </Card.Root>
             </a>
           </div>
-          
+
           {/* third col */}
           <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <a href="https://github.com/Sreejith0098/trends2.git">
+            <a style={{textDecoration:'none'}} href="https://github.com/Sreejith0098/trends2.git">
               <Card.Root overflow="hidden" className="h-100">
-                <Image 
-                  src={trends} 
-                  alt="Trends Clone" 
-                  className="img-fluid"
-                />
+                <Image src={trends} alt="Trends Clone" className="img-fluid" />
                 <Card.Body gap="2" className="text-center">
                   <Card.Title>Trends Clone</Card.Title>
                   <Card.Description>
